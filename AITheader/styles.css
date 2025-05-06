@@ -1,0 +1,26 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 53, 53);
+    height: 65px;
+    
+}
+
+.header .navbar .navitem a{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display:flex;
+    list-style-type: none;
+    margin-right: 20px;
+    align-items: center;
+    
+}
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+
+}
