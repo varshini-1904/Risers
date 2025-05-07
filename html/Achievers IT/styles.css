@@ -1,0 +1,96 @@
+
+.navitem {
+    position: relative;
+}
+
+.coursesdropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px 0;
+    top: 100%;
+    left: 0;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    min-width: 220px;
+    z-index: 999;
+}
+
+.coursesdropdown-menu li {
+    list-style: none;
+}
+
+.coursesdropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.coursesdropdown-menu li a:hover {
+    background-color: #f2f2f2;
+}
+
+
+.navitem.coursesdropdown:hover .coursesdropdown-menu {
+    display: block;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 53, 53);
+    height: 65px;
+}
+
+.header .navbar > .navitem > a {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+}
+
+.navitem.coursesdropdown.frontenddroplist:hover  .frontenddroplist-menu{
+    display: block;
+}
+
+.frontenddroplist-menu{
+    display: none;
+    position: relative;
+    background-color: white;
+    padding: 10px 0;
+    top: 100%;
+    left: 0;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    min-width: 220px;
+    z-index: 999;
+}
+
+
+
+.frontenddroplist-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.frontenddroplist-menu li a:hover {
+    background-color: #f2f2f2;
+}
+   
