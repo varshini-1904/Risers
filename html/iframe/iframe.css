@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #2e2e2e;
+  padding: 10px 30px;
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.AITlogo {
+  height: 50px;
+}
+
+.nav-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-container .navbar .navitem a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: 500;
+  position: relative;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+  
+ 
+ 
