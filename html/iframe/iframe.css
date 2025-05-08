@@ -1,25 +1,25 @@
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Header styling */
 .header {
   background-color: #2e2e2e;
   padding: 10px 30px;
   display: flex;
-  
+  align-items: center;
   justify-content: space-between;
+  position: relative;
+  z-index: 1000;
 }
 
 .AITlogo {
   height: 50px;
-}
-
-.nav-container {
-  flex: 1;
-  display: flex;
-  justify-content: center;
 }
 
 .navbar {
@@ -27,20 +27,14 @@
   display: flex;
   gap: 20px;
   align-items: center;
-  justify-content: center;
 }
 
-.nav-container .navbar .navitem a {
+.navitem a {
   color: white;
   text-decoration: none;
   padding: 10px 15px;
   font-weight: 500;
   position: relative;
-}
-
-.carousel-item img {
-  height: 500px;
-  object-fit: cover;
 }
 
   
