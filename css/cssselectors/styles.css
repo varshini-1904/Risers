@@ -1,0 +1,82 @@
+h1{
+    color:blue;
+}
+
+#summary{
+
+font-style: italic;
+
+}
+
+section>h2{
+
+    text-transform: uppercase;
+
+}
+
+input[type="password"]{
+
+    border: 2px solid red;
+
+}
+
+*{
+
+    background-color: #f3f3f3;
+
+}
+
+ul li:first-child{
+
+    text-decoration: underline blue;
+}
+
+
+
+
+.box p{
+
+    font-weight: bold;
+
+}
+
+
+
+div ~ p{
+
+    color:orange;
+
+}
+
+div + p{
+
+    color:green
+
+}
+
+
+
+
+
+
+.quote::before{
+
+    content: "→"
+
+
+}
+
+
+.important{
+
+    border: 2px solid black;
+
+}
+
+section div b{
+
+    color: red;
+    font-weight: bold;
+
+}
+

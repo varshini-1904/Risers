@@ -1,0 +1,23 @@
+.container div{
+    display: flex;
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+}
+.a .child{
+    background-color: rgb(104, 193, 245);
+}
+.b .child{
+    background-color: rgb(130, 130, 241);
+}
+.c .child{
+    background-color:rgb(159, 89, 224)
+}
+.child{
+    height: 100px;
+    width: 80px;
+}
+h1+.child:hover {
+    background-color: red;
+    box-shadow:solid rgb(130, 130, 241);
+}

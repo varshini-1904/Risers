@@ -1,0 +1,166 @@
+
+.block{
+    
+    height: 40px;
+    width: 100%;
+    
+    margin-top: 2px;
+    display: flex;
+    
+}
+.container{
+   
+    
+    width: 1200px;
+}
+
+.box1{
+    
+    height: 100%;
+    width:100px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box2{
+    height: 100%;
+    width:200px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box3{
+    height: 100%;
+    width:300px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box4{
+    height: 100%;
+    width:400px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box5{
+    height: 100%;
+    width:500px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box6{
+    height: 100%;
+    width:600px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box7{
+    height: 100%;
+    width:700px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box8{
+    height: 100%;
+    width:800px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box9{
+    height: 100%;
+    width: 900px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box10{
+    height: 100%;
+    width: 1000px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+.box11{
+    height: 100%;
+    width: 1100px;
+    background-color: #fcba03;
+    margin: 1px;
+}
+
+
+
+.nextbox1{
+    height: 100%;
+    width: 1100px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox2{
+    height: 100%;
+    width: 1000px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox3{
+    height: 100%;
+    width: 900px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox4{
+    height: 100%;
+    width: 800px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox5{
+    height: 100%;
+    width: 700px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox6{
+    height: 100%;
+    width: 600px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox7{
+    height: 100%;
+    width: 500px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox8{
+    height: 100%;
+    width: 400px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox9{
+    height: 100%;
+    width: 300px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox10{
+    height: 100%;
+    width: 200px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+.nextbox11{
+    height: 100%;
+    width: 100px;
+   
+    background-color: #fcba03;
+    margin: 1px;
+}
+
+
+

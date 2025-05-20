@@ -1,0 +1,108 @@
+
+.container{
+
+    width:300px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding:20px;
+    margin: 100px;;
+    
+
+}
+
+img{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px 100px ;
+}
+
+h3,p{
+
+    text-align: center;
+    margin: 5px;
+
+}
+
+
+
+
+
+
+.data{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin:30px;
+    font-size: large;
+}
+
+.count{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 5px;
+
+    
+}
+button{
+
+   width:200px;
+   margin: 0px 50px;
+   height: 40px;
+   border-radius: 20px;
+   background-color:rgb(112, 224, 219);
+   border: none;
+   color: white;
+   font-size:medium;
+    
+}
+.social-icons+p{
+    margin: 30px 0px;
+    font-size: smaller;
+    
+}
+
+p,.data>li{
+    color:gray
+}
+.count li{
+    color: black;
+}
+
+.social-icons {
+  text-align: center;
+  margin: 20px;
+
+  
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ddd;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a:nth-child(1) { background-color: #1da1f2; }  /* Twitter */
+.social-icons a:nth-child(2) { background-color: #3b5998; }  /* Facebook */
+.social-icons a:nth-child(3) { background-color: #dd4b39; }  /* Google+ */
+.social-icons a:nth-child(4) { background-color: #1769ff; }  /* Behance */
+
+.social-icons a:hover {
+  opacity: 0.8;
+
+}
+
+
