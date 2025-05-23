@@ -1,0 +1,44 @@
+div{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://www.muchbetteradventures.com/magazine/content/images/2020/01/02173633/GettyImages-944543546-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    
+}
+
+h1{
+    position: absolute ;
+    top:150px;
+    left: 60%;
+    font-weight: bolder;
+    font-size:50px;
+    margin: 10px;
+}
+
+p{
+    position: absolute;
+    top: 210px;
+    left: 60%;
+    font-weight: bolder;
+    margin: 30px 12px;
+}
+
+button{
+    background-color: rgb(195, 206, 40);
+    position: absolute;
+    top: 280px;
+    left: 60%;
+    margin: 0px 12px;
+    color: white;
+    font-weight:bold;
+    height: 30px;
+    width: 140px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
