@@ -1,0 +1,164 @@
+*{
+    margin: 10px 0px;
+}
+
+body{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    
+    width: 600px;
+    background-color: rgb(248, 246, 246);
+    padding: 0 150px;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+    
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    
+    
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+h4{
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.intro{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.intro button{
+
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: smaller;
+    padding: 5px 10px;
+
+}
+.intro img{
+    height: 130px;
+    width:130px;
+    border-radius: 50%;
+    margin: 0%;
+}
+.statweb{
+    border: 1px solid rgb(236, 234, 234) ;
+    padding: 10px;
+    border-radius: 10px;
+}
+.dynweb{
+    border: 1px solid rgb(236, 234, 234) ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+    
+
+
+.one{
+   margin: 5px;
+   border-radius: 10px;
+   background-color: rgb(174, 174, 228);
+   padding: 10px;
+   position: relative;
+}
+
+.two{
+   margin: 5px;
+   border-radius: 10px;
+   background-color: rgb(248, 231, 199);
+   padding: 10px;
+   position: relative;
+   
+}
+.form{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+     
+}
+.form button{
+    background-color: rgb(167, 102, 228);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px;
+
+}
+.form input{
+    width: 47%;
+    padding: 5px;
+   
+    
+    
+    
+}
+
+.form .ideas{
+    height: 100px;
+    width: 565px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.card h5,.card p{
+    text-align: center;
+}
+.card img{
+   
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    margin: 0%;
+    position: absolute;
+    bottom: 75%;
+    left: 90px;
+    
+    
+    
+}
+
+.oneinf,.twoinf{
+    margin-top: 60px;
+   
+}
+
+h5,h5+p{
+    margin: 0%;
+}
+
+h5{
+    font-weight: bolder;
+    font-size: 18px;
+}
+p{
+    font-size: small;
+}
